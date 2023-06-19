@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding:0;
+}
+ul{
+    background-color: teal;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 18px 28px;
+    margin: 0;
+    padding: 0;
+    
+}
+ul li{
+    float: left;
+    display: block;
+    padding: 18px 25px;
+ 
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    padding: 18px 28px;
+
+}
+ul li a:hover{
+    background-color: #9fd3c7;
+}
+ul h1{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+.container{
+    background-image: linear-gradient(rgba(0,0,0,70%),rgba(0,0,0,70%)),url(housebuilding-1407499.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+.text-area{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    padding: 10px 18px;
+    border-radius: 10px;
+    border: none;
+    background-color: tomato;
+    color: #fff;
+    transition: 2s;
+}
+.btn button:hover{
+    border-radius: 20px;
+    color: blue;
+    background-color: greenyellow;
+    transition: 2s;
+}
+.contain{
+    background-color: #fff;
+}
+.text3 h1{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.text4 h1{
+    color: black;
+    text-align: center;
+    font-family: verdana, Geneva, Verdana, sans-serif;
+}
+.containe{
+    background-color: beige;
+    width: 1500px;
+    float: left;
+}
+.card-img img{
+    width: 300px;
+    border-radius: 10px 10px 0px 0px ;
+}
+.cards{
+    width: 300px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius:15px ;
+    transition: 0.2s;
+    float: left;
+}
+.card-body h2{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.card-body p{
+    margin-bottom: 15px;
+    padding: 5px;
+}
+.card-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-footer button{
+    width: 150px;
+    background:black;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 6px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: 0.2s;
+}
+.card-footer button:hover{
+    background-color: #fff;
+    color: black;
+    border:2px solid black;
+}
+.cards:hover{
+    box-shadow: 24px 16px 19px -6px rgba(247,5,5,0.75);
+    -webkit-box-shadow: 24px 16px 19px -6px rgba(247,5,5,0.75);
+    -moz-box-shadow: 24px 16px 19px -6px rgba(247,5,5,0.75); 
+}
+.text5{
+    text-align: center;
+}
+.ogs input{
+    font-size: 30px;
+    border-radius: 15px;
+    border: 1px solid black;
+    outline: none;
+}
+.ogs textarea{
+    font-size: 30px;
+    border: 1px slid black;
+}
+.ogs input:hover{
+    border: none;
+}
+@media screen and  {
+    
+}
